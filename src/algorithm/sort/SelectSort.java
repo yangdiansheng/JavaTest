@@ -1,4 +1,4 @@
-package sort;
+package algorithm.sort;
 
 public class SelectSort {
     //选择排序：从待数组中选择出一个最小放入排序数组中以此类推

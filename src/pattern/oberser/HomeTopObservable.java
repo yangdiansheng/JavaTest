@@ -1,4 +1,4 @@
-package oberser;
+package pattern.oberser;
 
 import java.util.Observable;
 

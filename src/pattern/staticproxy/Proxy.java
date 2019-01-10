@@ -1,4 +1,4 @@
-package staticproxy;
+package pattern.staticproxy;
 
 public class Proxy implements Action{
 

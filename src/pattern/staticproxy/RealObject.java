@@ -1,4 +1,4 @@
-package staticproxy;
+package pattern.staticproxy;
 
 public class RealObject implements Action{
     @Override

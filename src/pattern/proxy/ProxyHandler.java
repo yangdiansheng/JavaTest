@@ -1,7 +1,6 @@
-package proxy;
+package pattern.oberser.proxy;
 
-import staticproxy.Action;
-import staticproxy.RealObject;
+import pattern.staticproxy.RealObject;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

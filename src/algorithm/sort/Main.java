@@ -1,8 +1,6 @@
-package sort;
+package algorithm.sort;
 
-import search.BinarySearch;
-
-import java.util.Arrays;
+import algorithm.search.BinarySearch;
 
 public class Main {
     public static void main(String[] args) {

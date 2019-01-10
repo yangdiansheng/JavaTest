@@ -1,4 +1,4 @@
-package sort;
+package algorithm.sort;
 
 public class Utils {
     public static void exchange(int[] arr,int positionA,int positionB){

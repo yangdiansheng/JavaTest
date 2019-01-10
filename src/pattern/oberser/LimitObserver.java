@@ -1,6 +1,4 @@
-package oberser;
-
-import sun.rmi.runtime.Log;
+package pattern.oberser;
 
 import java.util.Observable;
 import java.util.Observer;
