@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8779ed7-bf1d-4527-a5ae-6cdfef1489b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/AbstractBlackMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/AbstractWhiteMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/AbstractYellowMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/FemaleBlackMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/FemaleFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/FemaleWhiteMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/FemaleYellowMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/Human.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/HumanFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/MaleBlackMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/MaleFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/MaleWhiteMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/MaleYellowMan.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/abstract_factory/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/template/AbstractClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/template/ConcreteClass1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/template/ConcreteClass2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/template/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pattern/template/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,29 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FemaleWhiteMan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/FemaleWhiteMan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FemaleYellowMan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/FemaleYellowMan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#129#130#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaleBlackMan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/MaleBlackMan.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -85,24 +52,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaleWhiteMan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/MaleWhiteMan.java">
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/template/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#126#127#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="324">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaleYellowMan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/MaleYellowMan.java">
+      <file leaf-file-name="AbstractClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pattern/template/AbstractClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteClass1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/template/ConcreteClass1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcreteClass2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/template/ConcreteClass2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pattern/template/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -123,16 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FemaleBlackMan.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pattern/abstract_factory/FemaleBlackMan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -159,12 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pattern/single/Emperor.java" />
-        <option value="$PROJECT_DIR$/src/pattern/single/one/Single.java" />
-        <option value="$PROJECT_DIR$/src/pattern/single/zero/Single.java" />
-        <option value="$PROJECT_DIR$/src/pattern/single/zero/SingleHungry.java" />
-        <option value="$PROJECT_DIR$/src/pattern/single/zero/SingleLazy.java" />
-        <option value="$PROJECT_DIR$/src/pattern/single/readme.txt" />
         <option value="$PROJECT_DIR$/src/pattern/single/one/SingleInnerClass.java" />
         <option value="$PROJECT_DIR$/src/pattern/single/best/SingleInnerClass.java" />
         <option value="$PROJECT_DIR$/src/pattern/single/Main.java" />
@@ -210,6 +188,12 @@
         <option value="$PROJECT_DIR$/src/pattern/abstract_factory/Main.java" />
         <option value="$PROJECT_DIR$/src/pattern/abstract_factory/readme.txt" />
         <option value="$PROJECT_DIR$/src/pattern/abstract_factory/Human.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/HummerModel.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/AbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/ConcreteClass1.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/ConcreteClass2.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/Main.java" />
+        <option value="$PROJECT_DIR$/src/pattern/template/readme.txt" />
       </list>
     </option>
   </component>
@@ -260,23 +244,7 @@
               <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="five" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="four" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaTest" type="b2602c69:ProjectViewProjectNode" />
@@ -293,18 +261,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pattern.template" />
       <recent name="pattern.abstract_factory" />
       <recent name="pattern.factory.three" />
       <recent name="pattern.factory.two" />
       <recent name="pattern.factory" />
-      <recent name="pattern.factory.one" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pattern/template" />
       <recent name="$PROJECT_DIR$/src/pattern/abstract_factory" />
       <recent name="$PROJECT_DIR$/src/pattern/factory/five" />
       <recent name="$PROJECT_DIR$/src/pattern/factory/four" />
       <recent name="$PROJECT_DIR$/src/pattern/factory/three" />
-      <recent name="$PROJECT_DIR$/src/pattern/factory/two" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547110319742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="抽象工厂模式">
+      <created>1547446676245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547446676245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,8 +486,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36486486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4043659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36486486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24012475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11434511" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -563,54 +538,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目整理 + 单例模式" />
     <MESSAGE value="工厂模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="工厂模式" />
+    <MESSAGE value="抽象工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽象工厂模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/SelectSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithm/sort/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pattern/single/Emperor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pattern/single/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -829,7 +764,7 @@
         <state relative-caret-position="396">
           <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -871,8 +806,8 @@
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -882,8 +817,8 @@
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#258#259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,6 +913,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/template/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/template/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/template/ConcreteClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/template/ConcreteClass1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pattern/template/AbstractClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
