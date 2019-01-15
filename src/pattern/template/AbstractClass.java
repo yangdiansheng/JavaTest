@@ -11,6 +11,14 @@ public abstract class AbstractClass {
          * 调用基本方法完成相关逻辑
          */
         this.doSomething();
-        this.doAnything();
+        if (this.canDoAnything()){
+            this.doAnything();
+        }
     }
+
+    /**
+     * 钩子，是否可以执行公共算法中的方法
+     * @return
+     */
+    protected abstract boolean canDoAnything();
 }

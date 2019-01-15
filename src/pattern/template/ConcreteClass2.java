@@ -10,4 +10,9 @@ public class ConcreteClass2 extends AbstractClass{
     protected void doAnything() {
         //业务逻辑处理
     }
+
+    @Override
+    protected boolean canDoAnything() {
+        return false;
+    }
 }
