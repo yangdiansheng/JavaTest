@@ -1,4 +1,4 @@
-package pattern.oberser.proxy;
+package pattern.proxy;
 
 import pattern.staticproxy.RealObject;
 
