@@ -35,5 +35,4 @@ public class Main {
         Stock stock = new Stock(mediator);
         stock.clearStock();
     }
-
 }
