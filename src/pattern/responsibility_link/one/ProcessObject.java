@@ -1,4 +1,4 @@
-package link;
+package pattern.responsibility_link.one;
 
 public abstract class ProcessObject<Boolean> {
     private ProcessObject<Boolean> successor;

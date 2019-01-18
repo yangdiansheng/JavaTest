@@ -1,4 +1,4 @@
-package link;
+package pattern.responsibility_link.one;
 
 public class Main {
     public static void main(String[] args) {
