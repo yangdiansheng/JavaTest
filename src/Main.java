@@ -1,3 +1,5 @@
+import org.omg.CORBA.INTERNAL;
+
 import static java.util.stream.Collectors.groupingBy;
 
 public class Main {
@@ -109,6 +111,18 @@ public class Main {
 //            }
 //        }
 //    }
+
+
+
+
+
+    public static void main(String[] args){
+        Integer a = 2111;
+        Integer b = a;
+        a = 3;
+        System.out.println(a == b);
+
+    }
 }
 
 
