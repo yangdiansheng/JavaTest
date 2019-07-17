@@ -117,10 +117,16 @@ public class Main {
 
 
     public static void main(String[] args){
-        Integer a = 2111;
-        Integer b = a;
-        a = 3;
-        System.out.println(a == b);
+        int a = 0;
+        int b = 1;
+        int c = a + b;
+
+    }
+
+    public  void add(){
+        int a = 0;
+        int b = 1;
+        int c = a + b;
 
     }
 }

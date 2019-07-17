@@ -1,16 +1,34 @@
-public class Test {
+import fenpai.Person;
 
-    public static long getLong() {
-        ThreadLocal<Long> longLocal = new ThreadLocal<Long>();
-        return longLocal.get();  //空指针
+public class Test implements Father{
+
+    private int aa = 0;
+    protected float bb = 1;
+    public Test test = new Test();
+
+    public static void main(String[] args){
+
+        Test test = new Test();
+        try {
+            int sum = test.sum(1,2);
+            if (sum == 3){
+                test.foo();
+            }
+        } catch (Exception e){
+
+        }
     }
 
-    public static void main(String[] args) throws InterruptedException {
-        System.out.print(Test.getLong());
+    public void foo(){
+        System.out.println("sum = " + 3);
+    }
 
-//          ThreadLocal<Long> longLoca2 = new ThreadLocal<Long>();
-//          System.out.print(longLoca2.get());  //  null
+    public int sum(int i,int j){
+        return i + j;
+    }
 
-
+    @Override
+    public void show() {
+        foo();
     }
 }
