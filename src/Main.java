@@ -1,5 +1,7 @@
 import org.omg.CORBA.INTERNAL;
 
+import java.nio.ByteBuffer;
+
 import static java.util.stream.Collectors.groupingBy;
 
 public class Main {
@@ -117,10 +119,7 @@ public class Main {
 
 
     public static void main(String[] args){
-        int a = 0;
-        int b = 1;
-        int c = a + b;
-
+        ByteBuffer byteBuffer = ByteBuffer.allocate(10);
     }
 
     public  void add(){
