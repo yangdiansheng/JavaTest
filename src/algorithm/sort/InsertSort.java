@@ -16,4 +16,16 @@ public class InsertSort {
             arr[j+1] = value;//插入数据
         }
     }
+
+    public static void sort2(int[] arr){
+        for (int i = 1; i < arr.length ; i++){
+            for (int j =i; j > 0; j--){
+                if (arr[j -1] > arr[j]){
+                    Utils.exchange(arr,j-1 ,j);
+                } else{
+                    break;
+                }
+            }
+        }
+    }
 }
