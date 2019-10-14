@@ -1,7 +1,6 @@
 package algorithm.sort;
 
 
-import static algorithm.sort.ShellSort.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class Main {
         }
         System.out.println();
         System.out.println("--------------");
-        sort(arr);
+        MergeSort.mergeSort(arr);
         for (int a : arr) {
             System.out.print(a + "，");
         }
