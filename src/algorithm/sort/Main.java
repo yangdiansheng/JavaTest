@@ -10,7 +10,7 @@ public class Main {
         }
         System.out.println();
         System.out.println("--------------");
-        MergeSort.mergeSort(arr);
+        QuickSort.sort2(arr);
         for (int a : arr) {
             System.out.print(a + "，");
         }

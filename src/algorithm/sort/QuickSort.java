@@ -50,11 +50,11 @@ public class QuickSort {
         int j = right;
         int temp = arr[left];
         while (i != j) {
-            if (i < j && arr[i] <= temp) {
-                i++;
-            }
-            if (i < j && arr[j] >= temp) {
+            while (i < j && arr[j] > temp) {
                 j--;
+            }
+            while (i < j && arr[i] <= temp) {
+                i++;
             }
             if (i < j){
                 Utils.exchange(arr,i,j);
